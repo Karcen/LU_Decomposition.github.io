@@ -6,6 +6,22 @@
 <title>LU分解交互式可视化</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;600;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
 <style>
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 3rem 2rem 2rem;
+            color: #666;
+            font-size: 0.9rem;
+            border-top: 1px solid #ddd;
+            margin-top: 4rem;
+            background: #fff;
+        }
+
+        .footer-text {
+            font-style: italic;
+        }
+</style>
+<style>
 :root {
   --bg: #f5f7fb;
   --surface: #ffffff;
@@ -668,5 +684,8 @@ document.querySelectorAll('.solve-btn').forEach(btn=>{
 });
 $('solve-out').innerHTML=solveData[0];
 </script>
+  <footer class="footer">
+    由 Karcen Zheng 制作，<a href="https://karcen.github.io/zhengjiacheng.github.io/" target="_blank">联系我</a>
+	</footer>
 </body>
 </html>
